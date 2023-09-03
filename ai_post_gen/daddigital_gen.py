@@ -26,7 +26,7 @@ def dad_post():
             },
             {
             "role": "user",
-            "content": "Generate a similar post. Make sure it contains absolutely no emojis, hashtags, or quotation marks and is under 600 characters."
+            "content": "Generate a similar post. Make sure it contains absolutely no emojis, hashtags, or quotation marks. The text has a maximum of 600 characters."
             }
         ],
         temperature=1,
@@ -46,7 +46,7 @@ def dad_post():
             {"role": "system", "content": "You are a creative assistant specialized in crafting engaging and relevant Instagram captions."},
             {"role": "user", "content": f"Generate a caption for this inspiring post: '{inspiring_text}'."},
             {"role": "assistant", "content": "Elevate your day with this thought and remember, the best inspiration comes from within. Don't forget to check out our dad-curated shop, link in bio."},
-            {"role": "user", "content": "Proceed with generating a similar caption. Make it a maximum of 300 characters, no emojis, hashtags, or quotation marks."}
+            {"role": "user", "content": "Proceed with generating a similar caption. Make it a maximum of 400 characters, and use relevant hashtags."}
         ],
         temperature=0.8,
         max_tokens=200,

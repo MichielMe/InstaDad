@@ -7,6 +7,7 @@ def post_dad(caption, imagepath="../INSTADAD/ready_to_post/post01.jpg"):
 
     username = os.getenv("INSTAGRAM_USERNAME")
     password = os.getenv("INSTAGRAM_PASSWORD")
+    
 
     client = Client()
     try:
