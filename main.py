@@ -12,10 +12,9 @@ def main():
     
     create_image(inspiring_text)
     
-    # # Post to instagram
-    # post_dad(caption)
-    
-# ... (your existing imports and code)
+    # Post to instagram
+    post_dad(caption)
+
 
 if __name__ == "__main__":
     try:
